@@ -1,0 +1,14 @@
+MACRO
+abc &a,&b
+s 1,&a
+a 1,&b
+MEND
+MACRO
+xyz &x,&y
+l 1,&y
+P 1,&x
+MEND
+start
+abc u,v
+xyz h,g
+end
